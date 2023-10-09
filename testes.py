@@ -20,10 +20,8 @@ def capture_and_repeat():
             print(f"Você disse: {text}")
             engine.say(f"Você disse: {text}")
             engine.runAndWait()
-            
         except sr.UnknownValueError:
             print("Não foi possível entender o áudio.")
-            
         except sr.RequestError as e:
             print(f"Ocorreu um erro durante o reconhecimento de fala: {e}")
 
