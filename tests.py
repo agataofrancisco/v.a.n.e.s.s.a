@@ -5,7 +5,7 @@ import pyttsx3
 # Configuração do reconhecimento de fala
 recognizer = sr.Recognizer()
 
-# Configuração do motor de síntese de fala
+# Configuração do fyddytfmotor de síntese de fala
 engine = pyttsx3.init()
 
 def capture_and_repeat():
@@ -27,3 +27,4 @@ def capture_and_repeat():
 
 if __name__ == "__main__":
     capture_and_repeat()
+yuy
